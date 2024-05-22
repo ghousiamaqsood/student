@@ -1,0 +1,24 @@
+{
+  "name": "ssstudent_management_system",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "student management",
+  "main": "index.js",
+  "bin": {
+    "student_management_system": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "echo": "echo Hello, this is the student management system!"
+  },
+  "author": "Ghousia Maqsood",
+  "dependencies": {
+    "inquirer": "^9.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.12"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
